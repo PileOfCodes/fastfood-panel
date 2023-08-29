@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.4.0",
+    "nuxt": "^3.2.0",
+    "nuxt-headlessui": "^1.1.1",
+    "nuxt-icon": "^0.2.11"
+  },
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.3.5",
+    "@formkit/nuxt": "^1.0.0-beta.15",
+    "form-data": "^4.0.0",
+    "h3-formidable": "^0.2.2",
+    "tw-elements": "^1.0.0-alpha13",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-persian-datetime-picker": "^1.2.2"
+  }
+}

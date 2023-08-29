@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply rounded-full py-2 text-white
+    }
+    .btn-primary {
+        @apply bg-amber-500 px-7 focus:ring-2 focus:ring-amber-300
+    }
+    .btn-secondry {
+        @apply bg-amber-500 px-12 focus:ring-2 focus:ring-amber-300
+    }
+    .btn-chooseMenu {
+        @apply bg-slate-900 rounded-full py-2 px-7 text-white
+    }
+    .formStyle {
+        @apply outline outline-1 outline-slate-600 mt-6 rounded-md py-2 px-1 w-[500px]
+    }
+    .mobileFormStyle {
+        @apply outline outline-1 outline-slate-600 mt-6 rounded-md py-2 px-1 w-[400px]
+    }
+    .tw-loading {
+        @apply spinner-border animate-spin inline-block w-6 h-6 border-4 rounded-full
+    }
+    .tw-active {
+        @apply text-amber-500
+    }
+    .active {
+        @apply bg-amber-500 outline-none transition-all duration-300 rounded focus:outline-none focus:border-none
+    }
+}
